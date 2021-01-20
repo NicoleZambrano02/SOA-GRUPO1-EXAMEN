@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<factura>
+		<registro>
+			<codigo>1</codigo>
+			<ruc_empresa>1723707624001</ruc_empresa>
+			<cedula>1723707624</cedula>
+			<nombre>Kevin</nombre>
+			<apellido>Segovia</apellido>
+			<fecha>2021-01-20</fecha>
+			<telefono>0987076735</telefono>
+			<direccion>El Ejido</direccion>
+			<cantidad>1</cantidad>
+			<detalle>Compra de material de escritorio</detalle>
+			<forma_pago>Efectivo</forma_pago>
+			<total>30</total>
+		</registro>
+	</factura>
