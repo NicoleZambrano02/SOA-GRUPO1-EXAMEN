@@ -6,7 +6,11 @@
 			<cedula>1723707624</cedula>
 			<nombre>Kevin</nombre>
 			<apellido>Segovia</apellido>
-			<fecha>2021-01-20</fecha>
+			<fecha>
+<anio>2021</anio>
+<mes>01</mes>
+<dia>20</dia>
+</fecha>
 			<telefono>0987076735</telefono>
 			<direccion>El Ejido</direccion>
 			<cantidad>1</cantidad>
