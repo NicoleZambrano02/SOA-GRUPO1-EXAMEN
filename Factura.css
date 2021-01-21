@@ -1,0 +1,34 @@
+#header{
+    display: flex;
+    place-content: space-evenly;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#tabla {
+    text-align: -webkit-center;
+}
+
+table, th, td{
+    border: 1px solid;
+}
+
+#contenido {
+    margin-left: 120px;
+}
+
+#cod{
+    position: absolute;
+    padding-top: 110px;
+    left: 110px;
+}
+
+tr {
+    height: 20px;
+}
+
+cedula {
+    display: none;
+}

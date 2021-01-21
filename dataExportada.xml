@@ -1,21 +1,123 @@
 <?xml version="1.0"?>
-	<factura>
-		<registro>
-			<codigo>1</codigo>
-			<ruc_empresa>1723707624001</ruc_empresa>
-			<cedula>1723707624</cedula>
-			<nombre>Kevin</nombre>
-			<apellido>Segovia</apellido>
-			<fecha>
-<anio>2021</anio>
-<mes>01</mes>
-<dia>20</dia>
-</fecha>
-			<telefono>0987076735</telefono>
-			<direccion>El Ejido</direccion>
-			<cantidad>1</cantidad>
-			<detalle>Compra de material de escritorio</detalle>
-			<forma_pago>Efectivo</forma_pago>
-			<total>30</total>
-		</registro>
-	</factura>
+
+<?xml-stylesheet href="Factura.css"?>
+
+
+<factura xmlns="http://www.w3.org/1999/xhtml" 
+         xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         >
+
+    <registro>
+
+        <div id="header">
+            <h2>Factura</h2>
+            <h2 id="cod">Codigo Factura: 
+                <codigo>1</codigo>
+            </h2>
+            <h1>DPELUCHES</h1>
+            <img src="https://w7.pngwing.com/pngs/307/891/png-transparent-stuffed-animals-cuddly-toys-teddy-bear-mascot-world-plush-bear-animals-logo-fictional-character.png" alt="CAFE" width="304" height="228"/>
+        </div>
+
+        <div id="contenido">
+            <label>Fecha:
+                <fecha>
+                    <anio>2021</anio>/<mes>01</mes>/<dia>20</dia>
+                </fecha>
+            </label>
+
+            <br/>
+
+            <label>Cliente: 
+                <nombre>Kevin</nombre>
+                <apellido>Segovia</apellido>
+            </label>
+
+            <br/>
+
+            <label>Ruc: 
+                <ruc_empresa>1723707624001</ruc_empresa>
+            </label>
+
+            <br/>
+
+            <label>Dirección:  
+                <direccion>El Ejido</direccion>
+            </label>
+
+            <br/>
+
+            <label>Teléfono:  
+                <telefono>0987076735</telefono>
+            </label>
+
+            <br/>
+
+            <label>Forma de pago:
+                <forma_pago>Efectivo</forma_pago>
+            </label>
+        </div>
+
+
+
+        <br/>
+
+        <div id="tabla">
+            <table style="width:80%">
+                <tr>
+                    <th>Cantidad</th>
+                    <th>Descripción</th>
+                    <th>Valor unitario</th>
+                    <th>Valor total</th>
+                </tr>
+                <tr>
+                    <td>
+                        <cantidad>1</cantidad>
+                    </td>
+                    <td>
+                        <detalle>Compra de material de escritorio</detalle>
+                    </td>
+                    <td>
+                        <total>30</total>
+                    </td>
+                    <td>
+                        <total>30</total>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <cedula>1723707624</cedula>
+
+
+
+
+
+
+    </registro>
+</factura>
